@@ -1,0 +1,37 @@
+body{
+   background: url(kidtrophy.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #F17442CC;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Graduate', cursive;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 8000px;
+  flex-basis: 8000px;
+}
+.btn-primary{
+  background-color: #F17442CC;
+  border-color: black;
+  font-size: 24px
+
+}
+.btn-primary:hover{
+  background-color: black;
+  border-color: white;
+}
+.clear{
+  font-family: 'Graduate', cursive;
+}
